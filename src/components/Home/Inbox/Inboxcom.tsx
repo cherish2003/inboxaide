@@ -1,7 +1,6 @@
 "use client";
 import SearchWithTailFilter from "@/components/common/SearchWithTailFilter";
 import React from "react";
-import MailCom from "../Mail/MailCom";
 
 const Inboxcom = () => {
   return (

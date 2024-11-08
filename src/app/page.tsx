@@ -9,6 +9,7 @@ import {
   LayoutGroupProps,
 } from "@/components/ui/resizable";
 import MailCom from "@/components/Home/Mail/MailCom";
+import Mailcontent from "@/components/Home/Mail/Mailcontent";
 
 export default function Home() {
   const [sidebarWidth, setSidebarWidth] = useState<number>(150);
@@ -34,7 +35,9 @@ export default function Home() {
           <MailCom />
         </ResizablePanel>
         <ResizableHandle withHandle />
-        <ResizablePanel>mail content</ResizablePanel>
+        <ResizablePanel>
+          <Mailcontent />
+        </ResizablePanel>
       </ResizablePanelGroup>
     </div>
   );

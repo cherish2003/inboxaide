@@ -54,7 +54,7 @@ const MailList = () => {
         timeAgo="15m"
         tags={tags}
         avatar="https://via.placeholder.com/40"
-        key={3}
+        key={7}
       />
       <Mail
         sender="Albert Flores"
@@ -63,7 +63,7 @@ const MailList = () => {
         timeAgo="15m"
         tags={tags}
         avatar="https://via.placeholder.com/40"
-        key={3}
+        key={4}
       />
       <Mail
         sender="Albert Flores"
@@ -72,7 +72,7 @@ const MailList = () => {
         timeAgo="15m"
         tags={tags}
         avatar="https://via.placeholder.com/40"
-        key={3}
+        key={5}
       />
     </ScrollArea>
   );

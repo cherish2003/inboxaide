@@ -35,14 +35,13 @@ const Searchbadge = ({
         />
       )}
     </Badge>
-    
   ) : (
     <span
       style={{ backgroundColor: color }}
-      className="flex flex-col justify-center items-center text-xs px-2 rounded-full font-semibold text-white py-1"
+      className="flex justify-center items-center text-xs px-2 rounded-lg font-semibold text-white py-1 "
     >
-      {emoji}
-      {name}
+      <span className="mr-1">{emoji}</span>
+      <span>{name}</span>
     </span>
   );
 };
