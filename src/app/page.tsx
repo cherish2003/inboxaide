@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import Inboxcom from "@/components/Home/Inbox/Inboxcom";
-import Sidebar from "@/components/Home/Sidebar/sidebar";
 import {
   ResizableHandle,
   ResizablePanel,
@@ -10,6 +9,7 @@ import {
 } from "@/components/ui/resizable";
 import MailCom from "@/components/Home/Mail/MailCom";
 import Mailcontent from "@/components/Home/Mail/Mailcontent";
+import Sidebar from "@/components/Home/Sidebar/sidebar";
 
 export default function Home() {
   const [sidebarWidth, setSidebarWidth] = useState<number>(150);
@@ -37,7 +37,7 @@ export default function Home() {
         <ResizableHandle withHandle />
         <ResizablePanel>
           <Mailcontent />
-        </ResizablePanel>
+        </ResizablePanel> 
       </ResizablePanelGroup>
     </div>
   );

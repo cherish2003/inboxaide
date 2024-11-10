@@ -76,6 +76,22 @@ const Mailinput = ({ onExitComplete }) => {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <Button
+                      className="self-end ml-1 "
+                      size={"icon"}
+                      variant={"outline"}
+                    >
+                      🪄
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p>Personalize</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button
                       onClick={handleExit}
                       size={"icon"}
                       variant={"outline"}

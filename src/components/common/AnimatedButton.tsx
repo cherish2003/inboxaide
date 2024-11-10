@@ -9,12 +9,9 @@ const HoverButton = ({ icon: Icon, text, onClick }) => {
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
-      {/* Icon */}
       <motion.div className="flex items-center">
         <Icon className="w-6 h-6" />
       </motion.div>
-
-      {/* Text - only appears on hover */}
       <AnimatePresence>
         <motion.div
           className="overflow-hidden ml-2"
